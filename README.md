@@ -10,7 +10,7 @@
 - \<app\> - 具体业务模块
 
 ### base代码：
-- 基础样式
+- [基础样式](styles.md)
     - Adonis
     - component
         - base - 设置全局的字体，颜色link，等
@@ -38,7 +38,7 @@
 - charge - 账单 （申请充值和发票）
 - clearing - 结算（结算单和财务信息修改）
 - console - 单机联运和管理
-- home - 首页（我的应用，各应用统计数据）
+- [home](app/home.md) - 首页（我的应用，各应用统计数据）
 - network - 网盟广告（创建和管理）
 - online - 网游联运创建
 - open - oem 厂商的配置后台
