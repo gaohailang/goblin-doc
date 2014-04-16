@@ -50,6 +50,25 @@
 		  letter-spacing: -0.02em;
 		  color: #657b83;
 		}
+		.reveal-slides-logo{
+			position: absolute;
+			right: 10px;
+			top: 10px;
+			font-family: DINProRegular,"Helvetica Neue",Arial,"Microsoft Yahei","Lantinghei SC";
+			z-index: 10000;
+		}
+		.reveal-slides-logo img{
+			vertical-align: middle;
+			height: 50px;
+			margin: 0 5px;
+			display: inline-block;
+		}
+		.reveal-slides-logo a{
+			color: #999;
+			text-decoration: none!important;
+			display: inline-block;
+			vertical-align: text-bottom;
+		}
 		</style>
 
 		<!--[if lt IE 9]>
@@ -58,9 +77,11 @@
 	</head>
 
 	<body>
-
+		<div class="reveal-slides-logo">
+			<img src="http://img.wdjimg.com/branding/2h.png">
+			<a href="http://open.wandoujia.com" target="_blank">开发者中心</a>
+		</div>
 		<div class="reveal">
-
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section data-markdown="output.md"
