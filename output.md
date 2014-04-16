@@ -7,7 +7,7 @@
 
 ### 各个类型的代码分为：
 - base
-- \<app\> - 具体业务模块
+- **『app』** - 具体业务模块
 
 ---
 
@@ -34,7 +34,7 @@
 
 ---
 
-### 业务 \<app\>代码：
+### 业务 **『app』**代码：
 - account 帐号创建和设置
 - ad 广告创建
 - admanagement 广告管理和数据
@@ -49,15 +49,13 @@
 - opmanagement - 网游管理（SDK下的订单查询，成功失败订单，等）
 - package - 礼包创建
 
----
-
 ### 其他代码：
 - vender - 第三方非bower管理的library
 - config.js - 给require.js 用的配置文件
 
 ---
 
-### 业务\<app\>代码组成：(举例network, home)
+### 业务**『app』**代码组成：(举例network, home)
 - styles/home.scss
 - scripts/home/
     - index.js

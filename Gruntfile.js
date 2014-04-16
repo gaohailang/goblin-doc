@@ -19,6 +19,11 @@ module.exports = function(grunt) {
             outputmd: {
                 options: {
                     separator: '\n---\n\n',
+                    process: function(src, filepath) {
+                        return src
+                            .replace(/\n\n\n/g, '\n\n---\n\n')
+                            .replace(/\\</g, '**『').replace(/\\>/g, '』**');
+                    }
                 },
                 src: ['README.md', 'styles.md', 'app/*.md'],
                 dest: 'output.md'

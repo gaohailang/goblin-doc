@@ -9,7 +9,6 @@
 - base
 - \<app\> - 具体业务模块
 
----
 
 ### base代码：
 - [基础样式](styles.md)
@@ -32,7 +31,6 @@
     - pmtFinancial
     - pmtAlert（复杂的组件包含directive, service[如addAlert etc]）
 
----
 
 ### 业务 \<app\>代码：
 - account 帐号创建和设置
@@ -49,13 +47,10 @@
 - opmanagement - 网游管理（SDK下的订单查询，成功失败订单，等）
 - package - 礼包创建
 
----
-
 ### 其他代码：
 - vender - 第三方非bower管理的library
 - config.js - 给require.js 用的配置文件
 
----
 
 ### 业务\<app\>代码组成：(举例network, home)
 - styles/home.scss
@@ -70,7 +65,6 @@
     - myapp.html
     - stats.html
 
----
 
 ### build & deploy & develop 开发，构建，发布
 - 配置抽取： 抽出配置信息到gruntUitls.js中（如copy, replace, requirejs, connect settings(proxy, modRewrite等)）
@@ -81,7 +75,6 @@
     - 优化usemin, useminPrepare
         - home/index.html 引入 usemin 语法来单独完成framework.js的生成，然后deploy时候其他页面通过replace前的hook取得build & reversioned filename 并且替换
 
----
 
 ### Spec 专题
 - httpAuth
