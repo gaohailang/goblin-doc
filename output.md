@@ -96,3 +96,28 @@
 - [x] 更酷炫的见reveal.js中的效果
 - [ ] keep your word! - 把一些设想的，但没有实施的很好的，去实施！
 
+
+---
+
+# DEVCENTER STYLES Explained
+
+## Summary: 
+具体罗列现有的 UI 组件和基础样式，以基础样式层， 通用 UI 层, 业务相关 UI 层[跨业务模块的 UI 组件， 单独业务专属 UI 组件]等纬度来切分整理归类现有的styles 代码。
+---
+
+# HOME module Explained
+
+## 主要罗列 HOME module 相关设计和 issues
+
+## 代码结构
+- styles/home.scss
+- scripts/home/
+    - index.js
+    - services.js
+    - directives.js
+    - routes.js
+- templates/home
+    - app-list.html
+    - home.html
+    - myapp.html
+    - stats.html
