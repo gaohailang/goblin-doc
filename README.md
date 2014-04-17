@@ -17,8 +17,8 @@
         - base - 设置全局的字体，颜色link，等
         - ng-animate - angular's animation hook
         - form 
-        - `BASIC UI COMPONENT` dropdown, bubble, popup, help-tips，
-        - `DEVCENTER UI COMPONENT` protocol, step-progress-bar, icon, tab-btn, 
+        - `BASIC UI COMPONENT` dropdown, bubble, popup, help-tips，等
+        - `DEVCENTER UI COMPONENT` protocol, step-progress-bar, icon, tab-btn, 等
 - 基础模板 - 财务信息模板，分页，导航， 步骤条， 帐号avataor & menu， date range picker等 
 - 基础脚本
     - pmtAccount
@@ -77,12 +77,13 @@
 
 
 ### Spec 专题
-- httpAuth
+- [httpAuth](topics/http-auth.md)
 - form validate （420， message directive和 input设置）
     - 特殊的input field情况（pmtScreenShowcase）
 - GA insert
 - 局部directive和外围通信
 - dataServices：帮助controllers处理 业务资源请求和修改的http请求
+
 
 ### TODO:
 - [x] 把这篇简要的文档， 改成markdown 形式， 修饰下。
