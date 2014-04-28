@@ -20,7 +20,7 @@ module.exports = function(grunt) {
                 options: {
                     livereload: 35729
                 },
-                files: ['*.md', 'app/*.md'],
+                files: ['*.md', 'app/*.md', 'topics/*.md'],
                 tasks: ['concat']
             }
         },
@@ -53,7 +53,7 @@ module.exports = function(grunt) {
                             .replace(/\\</g, '**『').replace(/\\>/g, '』**');
                     }
                 },
-                src: ['README.md', '*.md', 'app/*.md'],
+                src: ['README.md', '*.md', 'app/*.md', 'topics/*.md'],
                 dest: 'dist/all.md'
             }
         }
