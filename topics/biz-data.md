@@ -11,5 +11,6 @@ dataServices：帮助业务模块中的 controllers 处理业务资源相关的�
 - Nice to have: 把以上的逻辑， 抽取到 base 下http api 模块中， 甚至以 devcenter javascript api sdk 的方式提供
 
 ## 参考链接
-[ngDropbox - http api sdk](https://github.com/christiansmith/ngDropbox)
-[flexible http mode @Eve](http://python-eve.org/features.html)
+
+- [ngDropbox - http api sdk](https://github.com/christiansmith/ngDropbox)
+- [flexible http mode @Eve](http://python-eve.org/features.html)
