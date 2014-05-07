@@ -82,7 +82,7 @@
     - 特殊的input field情况（pmtScreenShowcase）
 - GA insert
 - 局部directive和外围通信
-- dataServices：帮助controllers处理 业务资源请求和修改的http请求
+- [dataServices](topics/biz-data.md)：帮助controllers处理 业务资源请求和修改的http请求
 
 
 ### TODO:
